@@ -92,9 +92,7 @@ public class JobData {
         ArrayList<HashMap<String, String>> jobs = new ArrayList<>();
 
         for (HashMap<String, String> all : allJobs) {
-
-            System.out.println(all);
-
+            
             if(all.containsValue(value))
                 jobs.add(all);
 
